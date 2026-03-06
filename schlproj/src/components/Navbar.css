@@ -1,0 +1,21 @@
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:white;
+}
+
+.menu{
+display:flex;
+gap:20px;
+list-style:none;
+}
+
+.enroll{
+background:#2c6bed;
+color:white;
+border:none;
+padding:10px 20px;
+border-radius:20px;
+}

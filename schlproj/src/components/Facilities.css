@@ -1,0 +1,11 @@
+.facilities{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:80px 10%;
+}
+
+.fac-img img{
+width:400px;
+border-radius:10px;
+}

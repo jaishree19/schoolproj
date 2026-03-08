@@ -1,0 +1,39 @@
+.whychoose{
+background:#0b2a55;
+color:white;
+padding:80px 10%;
+text-align:center;
+}
+
+.whychoose h2{
+font-size:32px;
+margin-bottom:40px;
+}
+
+.whychoose span{
+color:#ffc107;
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(5,1fr);
+gap:30px;
+}
+
+.feature{
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+
+.icon{
+width:45px;
+height:45px;
+background:#163d7a;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+margin-bottom:10px;
+font-size:18px;
+}

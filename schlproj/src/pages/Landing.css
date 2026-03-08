@@ -1,0 +1,76 @@
+/* School Stats Section */
+
+.school-stats{
+display:flex;
+justify-content:center;
+gap:60px;
+padding:70px 10%;
+background:#0b2a55;
+color:white;
+text-align:center;
+}
+
+.stat-box h2{
+font-size:40px;
+margin-bottom:10px;
+}
+
+.stat-box p{
+font-size:18px;
+}
+.hero-bottom{
+text-align:center;
+padding:70px 10%;
+background:#f5f7fb;
+}
+
+.hero-bottom h2{
+font-size:34px;
+color:#0b2a55;
+margin-bottom:15px;
+}
+
+.hero-bottom p{
+max-width:700px;
+margin:auto;
+font-size:18px;
+margin-bottom:25px;
+}
+
+.hero-bottom button{
+background:#0b2a55;
+color:white;
+padding:12px 28px;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+
+/* Features Section */
+
+.features{
+display:flex;
+justify-content:center;
+gap:30px;
+padding:60px 10%;
+background:white;
+}
+
+.feature-box{
+background:#f5f7fb;
+padding:30px;
+border-radius:10px;
+width:280px;
+text-align:center;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.feature-box h3{
+color:#0b2a55;
+margin-bottom:10px;
+}
+
+.feature-box p{
+font-size:15px;
+}

@@ -1,11 +1,39 @@
 .facilities{
-display:flex;
-align-items:center;
-justify-content:space-between;
-padding:80px 10%;
+  background:#649ff1;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:80px 10%;
+  gap:40px;              /* space between text and image */
+  flex-wrap:wrap;        /* makes it responsive on small screens */
+}
+
+/* text section */
+.fac-text{
+  flex:1;
+  min-width:250px;
+}
+
+.fac-text h2{
+  margin-bottom:15px;
+  font-size:32px;
+}
+
+.fac-text ul{
+  line-height:1.8;
+}
+
+/* image section */
+.fac-img{
+  flex:1;
+  min-width:250px;
+  text-align:center;
 }
 
 .fac-img img{
-width:400px;
-border-radius:10px;
+  width:200%;
+  max-width:400px;       /* prevents image from becoming too large */
+  height:350px;
+  object-fit:cover;      /* keeps image ratio */
+  border-radius:10px;
 }
